@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15PX;
+    margin-right: 10PX;
+}
+body{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+canvas {
+    border: 2px solid steelblue;
+}
+.container {
+    background-color: rgb(226, 43, 174);
+    border: 1px solid slateblue;
+    display: flex;
+    width: 1400px;
+    padding: 1rem;
+}
